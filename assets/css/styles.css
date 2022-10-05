@@ -1,2 +1,101 @@
 
 /* css */
+body{
+  background-color: #504B73;
+}
+
+@media (max-width: 767px) {
+
+  #title{
+    font-size:62px;
+    font-weight: 700;
+    font-style: oswald;
+    color: #DDEEE7;
+    margin: auto;
+    display: block;
+  }
+  #emptybottom{
+    height: 75px;
+  }
+  #emptytop{
+    height: 110px;
+  }
+  img{
+    width: 290px;
+  }
+  #nolan{
+    font-size: 13px;
+    font-weight: 700;
+    font-style: oswald;
+    color: #DDEEE7;
+  }
+  #credits{
+    font-size: 7px;
+    font-weight: 700;
+    font-style: oswald;
+    color: #DDEEE7;
+    text-align: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #title{
+    font-size:127px;
+  }
+  #emptybottom{
+    height: 75px;
+  }
+  #emptytop{
+    height: 110px;
+  }
+  img{
+    width:337px;
+  }
+  #credits{
+    font-size: 13px;
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) and (max-width: 4000px){
+  #title{
+    font-size: 120px;
+    font-weight: 700;
+    font-style: oswald;
+    color: #DDEEE7;
+
+  }
+  img{
+    width: 320px;
+  }
+    #nolan{
+      font-size: 13px;
+    }
+    #credits{
+      font-size: 13px;
+      text-align: right;
+    }
+    #emptybottom{
+      height: 0px;
+    }
+    #emptytop{
+      height: 0px;
+    }
+}
+
+#title{
+font-weight: 700;
+font-style: oswald;
+color: #DDEEE7;
+margin: auto;
+display: block;
+}
+#nolan{
+  font-weight: 700;
+  font-style: oswald;
+  color: #DDEEE7;
+}
+
+#credits{
+  font-weight: 700;
+  font-style: oswald;
+  color: #DDEEE7;
+}
